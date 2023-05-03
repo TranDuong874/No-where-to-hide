@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Beta 3.0" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Beta 3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Beta 3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="main.cpp" />
+		<Unit filename="src/ammo.h" />
+		<Unit filename="src/animated_sprite.cpp" />
+		<Unit filename="src/animated_sprite.h" />
+		<Unit filename="src/audio.h" />
+		<Unit filename="src/button.h" />
+		<Unit filename="src/coin.h" />
+		<Unit filename="src/config.cpp" />
+		<Unit filename="src/config.h" />
+		<Unit filename="src/default.h" />
+		<Unit filename="src/enemy.cpp" />
+		<Unit filename="src/enemy.h" />
+		<Unit filename="src/game.cpp" />
+		<Unit filename="src/game.h" />
+		<Unit filename="src/lose_screen.cpp" />
+		<Unit filename="src/map.cpp" />
+		<Unit filename="src/map.h" />
+		<Unit filename="src/pause_menu.cpp" />
+		<Unit filename="src/player.cpp" />
+		<Unit filename="src/player.h" />
+		<Unit filename="src/raycaster.cpp" />
+		<Unit filename="src/raycaster.h" />
+		<Unit filename="src/setting_menu.cpp" />
+		<Unit filename="src/sprite.cpp" />
+		<Unit filename="src/sprite.h" />
+		<Unit filename="src/start_screen.cpp" />
+		<Unit filename="src/text.h" />
+		<Unit filename="src/win_screen.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
