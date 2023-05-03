@@ -103,6 +103,7 @@ private:
     text* time_clock;
     SDL_Texture* gun_hud;
     SDL_Texture* coin_hud;
+    SDL_Texture* back_ground;
 };
 
 #endif

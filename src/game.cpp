@@ -145,6 +145,7 @@ void game::render()
     SDL_RenderClear     (renderer);
     for(int i = 0; i < COINS.size();i++) COINS[i].render(render_list);
     for(int i = 0; i < AMMO.size() ;i++) AMMO[i].render(render_list);
+    SDL_RenderCopy(renderer,back_ground,NULL,NULL);
     RCAST   ->cast_rays (render_list);
     ENEMY   ->render    (render_list);
 
@@ -260,6 +261,7 @@ void game::init_HUD()
     time_clock      = new text(50,0,0,white,font,"00:00");
     gun_hud         = LoadTexture("Resources/entities/hud_shotgun.png");
     coin_hud        = LoadTexture("Resources/entities/coin.png");
+    back_ground     = LoadTexture("Resources/sky/sky1.png");
 }
 
 void game::update_HUD()
