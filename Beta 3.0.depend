@@ -9,7 +9,7 @@
 	"player.h"
 	"audio.h"
 
-1683108565 source:d:\game project\beta 3.0\src\game.cpp
+1683131671 source:d:\game project\beta 3.0\src\game.cpp
 	"game.h"
 	"player.h"
 	"map.h"
@@ -117,7 +117,7 @@
 	"animated_sprite.h"
 	"game.h"
 
-1683086491 d:\game project\beta 3.0\src\text.h
+1683113589 d:\game project\beta 3.0\src\text.h
 	<SDL_ttf.h>
 	<cstring>
 	<string>
@@ -439,4 +439,149 @@
 1683105183 source:d:\game project\beta 3.0\src\warning.cpp
 	"game.h"
 	"text.h"
+
+1683035068 source:d:\game project\finall\main.cpp
+	"src/game.h"
+
+1683104962 d:\game project\finall\src\game.h
+	<SDL.h>
+	<string>
+	<vector>
+	"player.h"
+	"audio.h"
+
+1683083846 d:\game project\finall\src\player.h
+	<SDL.h>
+	<bits/stdc++.h>
+	"map.h"
+	"audio.h"
+
+1683108474 d:\game project\finall\src\map.h
+	<SDL.h>
+	<SDL_image.h>
+	<bits/stdc++.h>
+
+1682950194 d:\game project\finall\src\audio.h
+	<SDL_mixer.h>
+	"config.h"
+
+1682934022 d:\game project\finall\src\config.h
+
+1682950968 source:d:\game project\finall\src\animated_sprite.cpp
+	"animated_sprite.h"
+	"game.h"
+
+1682950820 d:\game project\finall\src\animated_sprite.h
+	<SDL.h>
+	<vector>
+	<string>
+	<SDL_image.h>
+	"game.h"
+
+1682961204 source:d:\game project\finall\src\config.cpp
+	"config.h"
+
+1683088223 source:d:\game project\finall\src\enemy.cpp
+	"enemy.h"
+	"bits/stdc++.h"
+	"game.h"
+
+1683079972 d:\game project\finall\src\enemy.h
+	"sprite.h"
+	"player.h"
+
+1682948456 d:\game project\finall\src\sprite.h
+	"player.h"
+	<SDL.h>
+	<bits/stdc++.h>
+	"game.h"
+
+1683108565 source:d:\game project\finall\src\game.cpp
+	"game.h"
+	"player.h"
+	"map.h"
+	"raycaster.h"
+	"sprite.h"
+	"enemy.h"
+	"coin.h"
+	"ammo.h"
+	"text.h"
+	<bits/stdc++.h>
+	<iostream>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<SDL.h>
+	<vector>
+
+1683081491 d:\game project\finall\src\raycaster.h
+	<vector>
+	"game.h"
+
+1682949627 d:\game project\finall\src\coin.h
+	"sprite.h"
+
+1682949620 d:\game project\finall\src\ammo.h
+	"sprite.h"
+
+1683113589 d:\game project\finall\src\text.h
+	<SDL_ttf.h>
+	<cstring>
+	<string>
+	"game.h"
+
+1683083946 source:d:\game project\finall\src\lose_screen.cpp
+	"game.h"
+	"text.h"
+
+1682933317 source:d:\game project\finall\src\map.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<bits/stdc++.h>
+	"game.h"
+	"map.h"
+
+1683105236 source:d:\game project\finall\src\pause_menu.cpp
+	"game.h"
+	"text.h"
+
+1683107964 source:d:\game project\finall\src\player.cpp
+	"player.h"
+	"game.h"
+	"map.h"
+	"config.h"
+	<SDL.h>
+	<math.h>
+	"enemy.h"
+	"audio.h"
+	"animated_sprite.h"
+
+1683081803 source:d:\game project\finall\src\raycaster.cpp
+	<math.h>
+	<SDL.h>
+	"game.h"
+	"raycaster.h"
+
+1682962631 source:d:\game project\finall\src\setting_menu.cpp
+	"game.h"
+	"text.h"
+	"button.h"
+	"config.h"
+
+1682961129 d:\game project\finall\src\button.h
+
+1683079973 source:d:\game project\finall\src\sprite.cpp
+	"sprite.h"
+	<SDL.h>
+	<math.h>
+	"game.h"
+	"player.h"
+
+1683079973 source:d:\game project\finall\src\start_screen.cpp
+	"game.h"
+	"text.h"
+
+1683086718 source:d:\game project\finall\src\win_screen.cpp
+	"game.h"
+	"text.h"
+	<fstream>
 

@@ -45,20 +45,23 @@ public:
     {
         text_color = color;
         SDL_Surface* textureSurface = TTF_RenderText_Blended(font, written_text.c_str(), text_color);
-        textTexture                 = SDL_CreateTextureFromSurface(game::renderer,textureSurface);
-        SDL_QueryTexture(textTexture,NULL,NULL,&text_rect.w,&text_rect.h);
+        SDL_Texture* newTexture     =  SDL_CreateTextureFromSurface(game::renderer,textureSurface);
+        SDL_QueryTexture(newTexture,NULL,NULL,&text_rect.w,&text_rect.h);
+        SDL_DestroyTexture(textTexture);
         SDL_FreeSurface(textureSurface);
+        textTexture = newTexture;
     }
 
     void set_text(string edited_text)
     {
         written_text = edited_text;
         SDL_Surface* textureSurface = TTF_RenderText_Blended(font, edited_text.c_str(), text_color);
-        textTexture                 = SDL_CreateTextureFromSurface(game::renderer,textureSurface);
-        SDL_QueryTexture(textTexture,NULL,NULL,&text_rect.w,&text_rect.h);
+        SDL_Texture* newTexture     =  SDL_CreateTextureFromSurface(game::renderer,textureSurface);
+        SDL_QueryTexture(newTexture,NULL,NULL,&text_rect.w,&text_rect.h);
         SDL_FreeSurface(textureSurface);
+        SDL_DestroyTexture(textTexture);
+        textTexture = newTexture;
     }
-
     bool hover(int x, int y)
     {
         if(x < text_rect.x)               return false;

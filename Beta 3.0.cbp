@@ -58,6 +58,7 @@
 		<Unit filename="src/sprite.h" />
 		<Unit filename="src/start_screen.cpp" />
 		<Unit filename="src/text.h" />
+		<Unit filename="src/warning.cpp" />
 		<Unit filename="src/win_screen.cpp" />
 		<Extensions />
 	</Project>

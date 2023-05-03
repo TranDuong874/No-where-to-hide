@@ -85,7 +85,7 @@ void game::new_game()
     RCAST->get_map(MAP);
     RCAST->get_player(PLAYER);
 
-    ENEMY   = new enemy(960,960,500,500,PLAYER,"Resources/entities/teehee.png");
+    ENEMY   = new enemy(960,960,700,700,PLAYER,"Resources/entities/teehee.png");
 
     item_gen();
     init_HUD();
@@ -205,7 +205,7 @@ void game::item_gen()
     {
         int t = rand()%open_spots.size();
         int place = open_spots[t];
-        coin tmp(MAP->Map_DstTile[place].x,MAP->Map_DstTile[place].y+16,250,250,PLAYER,"Resources/entities/coin.png");
+        coin tmp(MAP->Map_DstTile[place].x,MAP->Map_DstTile[place].y+16,250,250*2,PLAYER,"Resources/entities/coin2.png");
         COINS.push_back(tmp);
         open_spots.erase(open_spots.begin()+t);
     }
@@ -214,7 +214,7 @@ void game::item_gen()
     {
         int t = rand()%open_spots.size();
         int place = open_spots[t];
-        ammo tmp(MAP->Map_DstTile[place].x,MAP->Map_DstTile[place].y+16,250,250,PLAYER,"Resources/entities/ammo.png");
+        ammo tmp(MAP->Map_DstTile[place].x,MAP->Map_DstTile[place].y+16,250,250*2,PLAYER,"Resources/entities/ammo2.png");
         AMMO.push_back(tmp);
         open_spots.erase(open_spots.begin()+t);
     }
