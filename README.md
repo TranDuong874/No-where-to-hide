@@ -1,5 +1,5 @@
-# No_where_to_run-game-
-No where to run is a simple horror game where the objective of the player is to collect all the coins to escape from the monster
+# No_where_to_hide-game-
+No where to hide is a simple horror game where the objective of the player is to collect all the coins to escape from the monster
 
 ## Game control
 * W,A,S,D keys to move around
