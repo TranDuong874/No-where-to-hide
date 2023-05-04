@@ -16,4 +16,11 @@ No where to hide is a simple horror game where the objective of the player is to
 * Adding floor casting
 * Adding ceiling casting
 
+## Reference materials 
+* Basic SDL2: https://lazyfoo.net/tutorials/SDL/index.php
+* Raycasting technique: https://www.permadi.com/tutorial/raycast/rayc9.html
+
+
+
+
 
